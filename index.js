@@ -39,21 +39,9 @@ rpc.on("ready", () => {
 
 
 rpc.login({
-    clientId: `${config.cid}`,
+    clientId: `${config.clientID}`,
 })
 
 
 
-/*
-rpc.on('ready', () => {
-    console.log(chalk.greenBright(title))
-    rpc.setActivity({
-        details: config.details,
-        state: config.state,
-        startTimestamp: new Date(),
-        largeImageKey: config.largeImageKey,
-        largeImageText: config.largeImageText,
-        smallImageKey: config.smallImageKey,
-        smallImageText: config.smallImageText
-    })
-}) */
+
